@@ -1244,3 +1244,8 @@ root {
 
 	border: 0;
 }
+
+/* ad banner hide*/
+#topRightAdHolder{
+	display: none;
+}
