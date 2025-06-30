@@ -13,6 +13,6 @@
 Download or copy `main_custom.css` to have always last update
 
 ---
-If you noticed some bugs or mistakes feel free to dm me on discord - `hardypr0`
-**Join M3OW discord server for more:**
+If you noticed some bugs or mistakes feel free to dm me on discord - `hardypr0`.  
+**Join M3OW discord server for more:**  
 [![Discord](https://img.shields.io/badge/m3ow_Discord-7289DA?style=for-the-badge&logo=discord)](https://discord.gg/WMS4NBsy4G)
