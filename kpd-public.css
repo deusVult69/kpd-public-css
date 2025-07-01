@@ -411,9 +411,8 @@ input:checked + .sliderSml:after {
 #menuRegionLabel {
 	margin-right: 5px;
 	margin-left: 5px;
-}
 
-#menuRegionLabel {
+	white-space: nowrap;
 }
 
 #menuPingText {
