@@ -189,15 +189,15 @@
 	align-items: center;
 	justify-content: center;
 
-	padding: 5px !important;
+	padding: 0 5px !important;
 	margin-top: 6px;
 
 	color: #fff;
 	line-height: 100% !important;
 	background-color: rgba(0, 0, 0, 0.2);
 }
-#dailySpinIcon.svelte-1g1yfcp {
-	display: none;
+#dailySpinIcon {
+	display: none !important;
 }
 #dailySpinDiv div {
 	color: #fff;
