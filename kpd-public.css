@@ -36,7 +36,7 @@
 #aMerger,
 #rankedSoonTm,
 #newsHolder,
-.youNewDiv:not(#battlepassAd),
+.youNewDiv:not(#battlepassAd):not(#dailySpinDiv),
 #homeStoreAd,
 #onetrust-consent-sdk,
 #aHolder,
@@ -89,20 +89,20 @@
 	flex-direction: column;
 }
 #tlInfHold {
-	top: 485px;
+	top: 474px;
 	display: flex !important;
 }
 #tlInfHold .youNewDiv {
-	margin: 0 !important;
 	padding: 0 !important;
-	background-color: transparent !important;
+	background-color: rgba(0, 0, 0, 0.2) !important;
 }
 #tlInfHold .youNewDiv .helpTxtHol {
 	margin-left: 0 !important;
 }
 #subLogoButtons div.button,
 #menuRegionLabel,
-#battlepassAd .helpTxtHol div:first-child::before {
+#battlepassAd .helpTxtHol div:first-child::before,
+#dailySpinDiv {
 	box-sizing: border-box;
 	height: 58px !important;
 	padding: 0 20px 0 20px !important;
@@ -121,13 +121,21 @@
 	margin-left: 0 !important;
 	margin-right: 0 !important;
 }
+#subLogoButtons .button.small:last-child {
+	margin: 0;
+}
 #subLogoButtons div:hover {
 	color: white !important;
 }
 #subLogoButtons #menuBtnRanked:hover {
 	border: 2px solid rgba(0, 0, 0, 0.1) !important;
 }
+#tlInfHold > div {
+	width: 100%;
+}
 #tlInfHold .youNewDiv {
+	width: 100%;
+	height: 58px;
 	font-size: 0;
 	min-width: 100%;
 
@@ -168,10 +176,40 @@
 
 	padding: 0 27px !important;
 
+	background-color: transparent !important;
+
 	transition: color 0.3s linear;
 }
 #tlInfHold #battlepassAd:hover .helpTxtHol div:first-child::before {
 	color: white !important;
+}
+
+#tlInfHold #dailySpinDiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	padding: 5px !important;
+	margin-top: 6px;
+
+	color: #fff;
+	line-height: 100% !important;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+#dailySpinIcon.svelte-1g1yfcp {
+	display: none;
+}
+#dailySpinDiv div {
+	color: #fff;
+}
+#dailySpinDiv.claimed {
+	opacity: 1;
+}
+#dailySpinDiv .claimedText {
+	display: none;
+}
+#dailySpinDiv .timeRemaining.svelte-1g1yfcp {
+	color: #fff;
 }
 
 /* spec */
@@ -1245,6 +1283,6 @@ root {
 }
 
 /* ad banner hide*/
-#topRightAdHolder{
+#topRightAdHolder {
 	display: none;
 }
