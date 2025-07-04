@@ -1,7 +1,7 @@
 # Krunker KPD Public CSS
 > ⚠️ **I just modded it, original author is not me.**
 
-> **Krunker Update 8.0.8 - fixed**
+> **Krunker Update 8.0.8 - fixed**  
 > **Update 8.0.9 - daily spin button added**
 
 ## Interface Screenshots
