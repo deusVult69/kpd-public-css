@@ -1,4 +1,4 @@
-# Krunker KPD Public CSSg
+# Krunker KPD Public CSS
 **KPD Public css** is custom css for krunker.io game, fixed for latest game updates.
 
 Changes from original version:
