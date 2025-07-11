@@ -1,4 +1,14 @@
-# Krunker KPD Public CSS
+# Krunker KPD Public CSSg
+**KPD Public css** is custom css for krunker.io game, fixed for latest game updates.
+
+Changes from original version:
+-  Fixed chat (enter key works)
+-  Restored junk and battle pass with daily challenges
+-  Changed font
+-  Fixed some blocks alignments
+-  Replaced watermark with server info
+-  some more
+
 > ⚠️ **I just modded it, original author is not me.**
 
 > **Krunker Update 8.0.8 - fixed**  
